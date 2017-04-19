@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         String str = sp.getString("username", "");
 
 
-
         SharedPreferences sp2 = PreferenceManager.getDefaultSharedPreferences(this);
         str = sp2.getString("account", "");
         TextView tv = (TextView) findViewById(R.id.textView);
